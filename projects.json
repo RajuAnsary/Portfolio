@@ -1,0 +1,248 @@
+[
+  {
+    "title": "ElevateBox AI Voice Sales Assistant",
+    "description": "An AI voice sales assistant that captures business requirements, qualifies leads as HOT, WARM, or COLD, and sends contextual WhatsApp follow-ups.",
+    "tags": [
+      "Node.js",
+      "Express.js",
+      "Vapi",
+      "WhatsApp Cloud API",
+      "Exotel"
+    ],
+    "details": "Handles partial transcripts, duplicate webhooks, spoken-number normalization, callback scheduling, and provider failures.",
+    "id": "elevatebox",
+    "category": "ai"
+  },
+  {
+    "title": "Magicpin Vera",
+    "description": "A deterministic merchant assistant that turns business context into grounded messages and manages multi-turn customer replies.",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "Uvicorn",
+      "REST APIs"
+    ],
+    "details": "Includes trigger ranking, duplicate suppression, expiry and opt-out handling, and a limit of 20 actions per tick. Tested with 59 unit tests and replay scenarios.",
+    "id": "vera",
+    "category": "ai"
+  },
+  {
+    "title": "AI-Powered Workflow Automation",
+    "description": "Transforms handwritten manufacturing documents into structured records using image preprocessing, OCR, and LLM-assisted extraction.",
+    "tags": [
+      "React",
+      "Node.js",
+      "MongoDB Atlas",
+      "Sharp",
+      "Tesseract.js",
+      "Groq / Llama"
+    ],
+    "details": "Provides validation, confidence scoring, editable review, persistent storage, and production dashboards by machine and shift. Deployed with Vercel and Render.",
+    "id": "workflow",
+    "category": "ai"
+  },
+  {
+    "title": "ProConnect",
+    "description": "A professional networking platform with profiles, posts, comments, likes, user discovery, and connection requests.",
+    "tags": [
+      "Next.js",
+      "Redux Toolkit",
+      "Express.js",
+      "MongoDB",
+      "Mongoose"
+    ],
+    "details": "Includes bcrypt and token-based login, media uploads with Multer, work histories, and downloadable resumes generated using PDFKit. Deployed with Vercel and Render.",
+    "id": "proconnect",
+    "category": "web"
+  },
+  {
+    "title": "Credit Card Fraud Detection",
+    "description": "A teacher–student knowledge distillation framework that transfers graph-based transaction knowledge into a student model.",
+    "details": "Uses logit and feature distillation, Target Encoding, Quantile Transformation, and Borderline-SMOTE. Evaluated on two public datasets against XGBoost and an MLP using PR-AUC, ROC-AUC, F1, and MCC.",
+    "tags": [
+      "Python",
+      "PyTorch",
+      "PyTorch Geometric",
+      "GATv2",
+      "SE-ResNet",
+      "XGBoost"
+    ],
+    "id": "distillation",
+    "category": "ai"
+  },
+  {
+    "title": "Fraud Detection Prediction App",
+    "description": "An interactive application that predicts potentially fraudulent transactions from user-entered transaction details.",
+    "details": "Compared Logistic Regression and Random Forest, then built a preprocessing and prediction pipeline using StandardScaler, OneHotEncoder, and ColumnTransformer. Deployed on Render.",
+    "tags": [
+      "Python",
+      "Streamlit",
+      "Scikit-learn",
+      "Pandas",
+      "Random Forest"
+    ],
+    "id": "fraud",
+    "category": "ai"
+  },
+  {
+    "title": "Fake News Detection",
+    "description": "A news classification application combining text preprocessing, TF-IDF features, and Logistic Regression.",
+    "details": "Lets users paste articles for model predictions. Stores the classifier and vectorizer with Joblib and is deployed on Streamlit Cloud.",
+    "tags": [
+      "Python",
+      "Scikit-learn",
+      "TF-IDF",
+      "Logistic Regression",
+      "Streamlit"
+    ],
+    "id": "news",
+    "category": "ai"
+  },
+  {
+    "title": "Papollo Healthcare Data Analysis",
+    "description": "An interactive dashboard exploring patient flow, diagnoses, billing, and hospital resource use.",
+    "details": "Analyzes more than ₹190M in billing data, insurance coverage, ward occupancy, and doctor feedback to surface operational patterns.",
+    "tags": [
+      "Power BI",
+      "Microsoft Excel",
+      "Data Visualization"
+    ],
+    "id": "healthcare",
+    "category": "data"
+  },
+  {
+    "title": "OLA Data Analysis",
+    "description": "An analysis of more than 20,000 ride bookings, covering revenue, cancellations, payments, and customer behavior.",
+    "details": "A five-page Power BI dashboard examines ride volume, vehicle performance, ratings, and distance patterns. The analyzed dataset showed an approximately 28% cancellation rate.",
+    "tags": [
+      "Power BI",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "Excel"
+    ],
+    "id": "ola",
+    "category": "data"
+  },
+  {
+    "title": "Iris AI Assistant",
+    "description": "A voice-enabled assistant with wake-word activation, spoken responses, and a Flask web interface.",
+    "details": "Opens websites, plays music, reads news, and uses a local GGUF language model for AI responses. Combines local model inference with online speech and news services.",
+    "tags": [
+      "Python",
+      "Flask",
+      "SpeechRecognition",
+      "gTTS",
+      "Pygame",
+      "ctransformers"
+    ],
+    "id": "iris",
+    "category": "ai"
+  },
+  {
+    "title": "AI Learning Assistant",
+    "description": "A learning platform for beginner JavaScript developers with structured lessons, AI explanations, coding assistance, and debugging support.",
+    "details": "Tracks learning progress with DynamoDB, provides bcrypt-based authentication, and uses S3 and CloudFront for frontend delivery. Backend deployed using Serverless Framework.",
+    "tags": [
+      "React",
+      "AWS Bedrock",
+      "Amazon Nova Micro",
+      "Lambda",
+      "API Gateway",
+      "DynamoDB"
+    ],
+    "id": "learning",
+    "category": "ai"
+  },
+  {
+    "title": "Nexus — Real-Time Video Platform",
+    "description": "A video platform supporting multi-user meetings, live messaging, and user presence notifications.",
+    "details": "Implements WebRTC signaling and REST APIs with Node.js and Express.js, MongoDB for user data, and reusable Material UI components.",
+    "tags": [
+      "React",
+      "Material UI",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "WebRTC",
+      "Socket.io"
+    ],
+    "id": "nexus",
+    "category": "web"
+  },
+  {
+    "title": "WanderLust",
+    "description": "An Airbnb-inspired application with property listings, reviews, and interactive maps.",
+    "details": "Uses Passport.js and express-session for authentication, Cloudinary and Multer for uploads, Joi validation, and MVC architecture. Deployed on Render.",
+    "tags": [
+      "Node.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "EJS",
+      "Bootstrap",
+      "Passport.js",
+      "Leaflet"
+    ],
+    "id": "wanderlust",
+    "category": "web"
+  },
+  {
+    "title": "EcoTrack — AI-Powered Sustainability",
+    "description": "A full-stack sustainability platform for tracking carbon footprints, setting eco goals, receiving AI-powered recommendations, and monitoring environmental impact.",
+    "details": "Team 2 project with JWT authentication, user profiles and preferences, Cloudinary photo uploads, carbon-entry management across food, transportation, electricity, waste, and other activities, plus a dashboard summary.",
+    "tags": [
+      "Java 17",
+      "Spring Boot 3",
+      "Spring Security",
+      "JWT",
+      "Angular 18",
+      "PostgreSQL 18",
+      "Hibernate / JPA",
+      "Cloudinary",
+      "Maven"
+    ],
+    "id": "ecotrack",
+    "category": "web",
+    "github": "https://github.com/springboardmentor84/Team2-Powered-Carbon-Footprint-Sustainability-Management-Platform-"
+  },
+  {
+    "id": "airbnb-listing",
+    "title": "Airbnb-Style Listing Experience",
+    "category": "web",
+    "description": "A React and Node.js desktop listing experience for a Candolim stay, featuring a hero gallery, full-screen Photo Tour, and keyboard-accessible lightbox.",
+    "details": "Serves local listing data through an Express API. Includes photo categories, focus trapping and restoration, nested Escape handling, scroll locking, local Save state, date and guest selection, and nearby-stay pagination. Desktop-focused demo: booking, payments, authentication, and search are not implemented. Frontend hosted on Vercel; backend on Render.",
+    "tags": [
+      "React",
+      "Vite",
+      "JavaScript",
+      "CSS",
+      "Lucide React",
+      "Node.js",
+      "Express.js",
+      "CORS"
+    ],
+    "live": "https://airbnb-clone-app-one-rho.vercel.app"
+  },
+  {
+    "id": "flexipay",
+    "title": "FlexiPay — Smartphone EMI Shopping",
+    "category": "web",
+    "description": "A full-stack smartphone shopping experience with storage and color variants, dynamic pricing, image galleries, and monthly EMI-plan comparisons.",
+    "details": "React Router provides unique product pages backed by an Express REST API and MongoDB Atlas. Users can compare tenure, interest, and cashback, select a plan, and use a Proceed action. Checkout, payment processing, user accounts, and an admin dashboard are planned improvements.",
+    "tags": [
+      "React",
+      "Vite",
+      "React Router",
+      "Axios",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "Mongoose"
+    ],
+    "live": "https://flexipay-amber.vercel.app",
+    "github": "https://github.com/RajuAnsary/FlexiPay",
+    "video": "https://drive.google.com/file/d/1WPY2I4K7-xwf8GLATK_Au6m-OwzK5HXu/view?usp=sharing"
+  }
+]
