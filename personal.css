@@ -1,4 +1,10 @@
 /* Small additions to the original modern layout: portrait greeting, themes and cursor. */
+.project-card{position:relative}
+.project-primary-link::after{content:'';position:absolute;inset:0;z-index:1}
+.project-primary-link:focus-visible{outline:none}
+.project-card:has(.project-primary-link:focus-visible){outline:2px solid var(--cyan);outline-offset:4px}
+.project-card details,.project-card .project-repository,.project-card .project-links{position:relative;z-index:2}
+.project-body .project-destination{color:var(--cyan);font-size:11px;margin:18px 0 0}
 .nav-actions #theme-toggle{font-size:21px}
 .profile-container{position:relative;z-index:4}
 .profile-trigger{display:block;padding:0;cursor:pointer;transition:transform .25s,box-shadow .25s}

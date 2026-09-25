@@ -11,7 +11,8 @@
     ],
     "details": "Handles partial transcripts, duplicate webhooks, spoken-number normalization, callback scheduling, and provider failures.",
     "id": "elevatebox",
-    "category": "ai"
+    "category": "ai",
+    "github": "https://github.com/RajuAnsary/elevatebox-ai-caller"
   },
   {
     "title": "Magicpin Vera",
@@ -24,7 +25,8 @@
     ],
     "details": "Includes trigger ranking, duplicate suppression, expiry and opt-out handling, and a limit of 20 actions per tick. Tested with 59 unit tests and replay scenarios.",
     "id": "vera",
-    "category": "ai"
+    "category": "ai",
+    "github": "https://github.com/RajuAnsary/magicpin-vera"
   },
   {
     "title": "AI-Powered Workflow Automation",
@@ -39,7 +41,8 @@
     ],
     "details": "Provides validation, confidence scoring, editable review, persistent storage, and production dashboards by machine and shift. Deployed with Vercel and Render.",
     "id": "workflow",
-    "category": "ai"
+    "category": "ai",
+    "live": "https://ai-powered-workflow-automation-syst-seven.vercel.app/"
   },
   {
     "title": "ProConnect",
@@ -53,7 +56,9 @@
     ],
     "details": "Includes bcrypt and token-based login, media uploads with Multer, work histories, and downloadable resumes generated using PDFKit. Deployed with Vercel and Render.",
     "id": "proconnect",
-    "category": "web"
+    "category": "web",
+    "live": "https://proconnect-linkedin-clone-henna.vercel.app",
+    "backend": "https://proconnectlinkedinclone-lldr.onrender.com"
   },
   {
     "title": "Credit Card Fraud Detection",
@@ -68,7 +73,8 @@
       "XGBoost"
     ],
     "id": "distillation",
-    "category": "ai"
+    "category": "ai",
+    "github": "https://github.com/RajuAnsary/Credit-Card-Fraud-Detection-Teacher-Student-Knowledge-Distillation"
   },
   {
     "title": "Fraud Detection Prediction App",
@@ -82,7 +88,8 @@
       "Random Forest"
     ],
     "id": "fraud",
-    "category": "ai"
+    "category": "ai",
+    "live": "https://fraud-detection-app-1-412j.onrender.com/"
   },
   {
     "title": "Fake News Detection",
@@ -96,7 +103,8 @@
       "Streamlit"
     ],
     "id": "news",
-    "category": "ai"
+    "category": "ai",
+    "live": "https://fake-news-detector801.streamlit.app/"
   },
   {
     "title": "Papollo Healthcare Data Analysis",
@@ -108,7 +116,8 @@
       "Data Visualization"
     ],
     "id": "healthcare",
-    "category": "data"
+    "category": "data",
+    "github": "https://github.com/RajuAnsary/Papollo-Healthcare-Analysis/tree/main/Papollo-Healthcare-Analysis"
   },
   {
     "title": "OLA Data Analysis",
@@ -123,7 +132,8 @@
       "Excel"
     ],
     "id": "ola",
-    "category": "data"
+    "category": "data",
+    "github": "https://github.com/RajuAnsary/OLA-Data-Analysis"
   },
   {
     "title": "Iris AI Assistant",
@@ -138,7 +148,8 @@
       "ctransformers"
     ],
     "id": "iris",
-    "category": "ai"
+    "category": "ai",
+    "github": "https://github.com/RajuAnsary/Irish-ai-assistant"
   },
   {
     "title": "AI Learning Assistant",
@@ -153,7 +164,8 @@
       "DynamoDB"
     ],
     "id": "learning",
-    "category": "ai"
+    "category": "ai",
+    "live": "https://di21r9s7dmq4q.cloudfront.net"
   },
   {
     "title": "Nexus — Real-Time Video Platform",
@@ -185,7 +197,8 @@
       "Leaflet"
     ],
     "id": "wanderlust",
-    "category": "web"
+    "category": "web",
+    "github": "https://github.com/RajuAnsary/my-fullstack-project"
   },
   {
     "title": "EcoTrack — AI-Powered Sustainability",
